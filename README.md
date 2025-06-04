@@ -193,3 +193,19 @@ This tool enables you to trigger functions in the web UI of your AI Assistant as
 ## License
 
 MIT
+
+## iMessage Style Monitoring UI
+
+This repository now includes a simple web interface for monitoring and managing
+your AI Assistant conversations in real time. The interface mimics the familiar
+iMessage layout and allows human agents to take over or resume automated
+responses at any time.
+
+To access the UI after deploying the Functions, open
+`https://<your-functions-domain>.twil.io/imessage/` in your browser. When
+prompted, enter an identity for the agent. The page lists all conversations from
+the configured Conversations Service and updates in real time.
+
+Each thread provides a **Disable AI** button. Toggling this puts the current
+conversation into human takeover mode. Press **Enable AI** to allow the
+assistant to reply again.

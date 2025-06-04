@@ -70,6 +70,11 @@ exports.handler = async function (context, event, callback) {
     ChatServiceSid,
     ConversationSid
   );
+
+  if (attributes.assistantDisabled) {
+    return callback(null, "assistant disabled");
+  }
+
   await client.conversations.v1
     .services(ChatServiceSid)
     .conversations(ConversationSid)
