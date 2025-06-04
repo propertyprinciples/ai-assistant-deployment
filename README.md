@@ -194,15 +194,15 @@ This tool enables you to trigger functions in the web UI of your AI Assistant as
 
 MIT
 
-## iMessage Style Monitoring UI
+## Simple Chat Monitoring UI
 
 This repository now includes a simple web interface for monitoring and managing
-your AI Assistant conversations in real time. The interface mimics the familiar
-iMessage layout and allows human agents to take over or resume automated
-responses at any time.
+your AI Assistant conversations in real time. It provides a minimal chat style
+interface that allows human agents to take over or resume automated responses at
+any time.
 
 To access the UI after deploying the Functions, open
-`https://<your-functions-domain>.twil.io/imessage/` in your browser. When
+`https://<your-functions-domain>.twil.io/chat-ui/` in your browser. When
 prompted, enter an identity for the agent. The page lists all conversations from
 the configured Conversations Service and updates in real time.
 
